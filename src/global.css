@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    /* poppins font */
+    @font-face {
+        font-family: poppins extra light;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraLight.ttf');
+    }
+
+    @font-face {
+        font-family: poppins light;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-Light.ttf');
+    }
+
+    @font-face {
+        font-family: poppins regular;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: poppins medium;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: poppins semi bold;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-SemiBold.ttf');
+    }
+
+    @font-face {
+        font-family: poppins bold;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: poppins extra bold;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraBold.ttf');
+    }
+
+    @font-face {
+        font-family: poppins black;
+        src: url('assets/css/webfonts/custom/poppins/Poppins-Black.ttf');
+    }
+
+
+    /* roboto */
+    @font-face {
+        font-family: robto thin;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Thin.ttf');
+    }
+    @font-face {
+        font-family: roboto light;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Light.ttf');
+    }
+    @font-face {
+        font-family: roboto regular;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Regular.ttf');
+    }
+    @font-face {
+        font-family: roboto medium;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Medium.ttf');
+    }
+    @font-face {
+        font-family: roboto bold;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Bold.ttf');
+    }
+    @font-face {
+        font-family: roboto black;
+        src: url('assets/css/webfonts/custom/roboto/Roboto-Black.ttf');
+    }
+
+    /* playfair display */
+    @font-face {
+        font-family: playfair display regular;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Regular.ttf');
+    }
+    @font-face {
+        font-family: playfair display medium;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Medium.ttf');
+    }
+    @font-face {
+        font-family: playfair display semi bold;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-SemiBold.ttf');
+    }
+    @font-face {
+        font-family: playfair display bold;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Bold.ttf');
+    }
+    @font-face {
+        font-family: playfair display extra bold;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-ExtraBold.ttf');
+    }
+    @font-face {
+        font-family: playfair display black;
+        src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Black.ttf');
+    }
+
+
+    /* html,
+    body{
+        scroll-behavior: smooth;
+        @apply text-black font-ppnRegular text-lg;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        @apply font-ppnSemiBold leading-tight;
+    }
+
+    a,
+    button{
+        @apply duration-300 focus:outline-none hover:opacity-80;
+    }
+
+    p{
+        @apply mb-5 opacity-80;
+    }
+
+    code {
+        @apply shadow-sm text-sm bg-black bg-opacity-40 rounded py-1 px-3;
+    }
+
+    .qoute{
+        @apply border-l-4 border-white border-opacity-20 pl-6 sm:pl-8 mb-5;
+    }
+
+    .qoute p {
+        @apply opacity-100;
+    }
+
+    .codeWrap{
+        @apply rounded bg-black bg-opacity-20 p-4 sm:p-8 mb-5;
+    }
+
+    .codeWrap.multi p{
+        @apply mb-0.5;
+    } */
+
+    html,
+    body{
+        scroll-behavior: smooth;
+        @apply text-black font-rbtRegular text-base;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        @apply text-primary font-pfdBold leading-none;
+    }
+
+    a,
+    button{
+        @apply duration-300 focus:outline-none hover:opacity-80;
+    }
+
+    .bgFooter{
+        background: linear-gradient(180deg, #495B89 0%, #333F5F 100%);
+    }
+
+
+
+
+    /* style for blog list page */
+    h1 {
+        @apply text-3xl sm:text-4xl md:text-5xl mb-4 font-bold;
+    }
+    h2 {
+        @apply text-2xl lg:text-3xl font-bold mb-3;
+    }
+    h3 {
+        @apply text-2xl font-bold mb-3;
+    }
+    h4 {
+        @apply text-xl font-bold mb-3;
+    }
+    h5{
+        @apply text-sm font-bold capitalize;
+    }
+    h6{
+        @apply font-medium text-sm uppercase text-primary mb-1;
+    }
+
+    p{
+        @apply opacity-60 text-base;
+    }
+
+    .blogContent{
+        @apply font-serif text-base sm:text-xl;
+    }
+
+    .blogContent blockquote{
+        @apply italic pl-5 border-l-2 border-primary mb-8 opacity-90;
+    }
+
+    .blogContent ul{
+        @apply mb-8 list-disc pl-6 ml-4 opacity-90;
+    }
+
+    .blogContent p{
+        @apply mb-8 text-xl opacity-90 leading-relaxed;
+    }
+
+    .blogContent span{
+        @apply text-black font-bold;
+    }
+
+    .blogContent span.box{
+        @apply inline-block px-2 border border-gray-300 bg-gray-200 rounded-md;
+    }
+
+    .blogContent a{
+        @apply text-primary underline;
+    }
+
+    .blogContent blockquote{
+        @apply mb-8;
+    }
+
+    .blogContent img{
+        @apply mt-2 mb-10;
+    }
+}

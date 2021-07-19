@@ -1,0 +1,21 @@
+{
+  "name": "ajdev-site",
+  "private": true,
+  "scripts": {
+    "dev": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@vuejs-community/vue-filter-date-format": "^1.6.3",
+    "dayjs": "^1.10.5",
+    "gridsome": "^0.7.0",
+    "gridsome-source-graphql": "^1.0.2",
+    "tailwind-scrollbar-hide": "^1.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+  }
+}
