@@ -1,0 +1,9 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 201" width="1920" height="201">
+	<title>heroBottom-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Shape 1" class="shp0" d="M0 143C0 143 598 -12.16 896 0C1194 12.16 1279 104.84 1649 147C1764 159.16 1920 147 1920 147L1920 201L0 201L0 143Z" />
+	<path id="Shape 2" class="shp0" d="M-474 -1721" />
+</svg>

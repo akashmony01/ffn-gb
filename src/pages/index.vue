@@ -57,9 +57,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.bg-heroImg {
-  background-image: url(~@/assets/images/heroBg.png);
-}
-</style>

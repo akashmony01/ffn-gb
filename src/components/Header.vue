@@ -1,6 +1,6 @@
 <!-- header setion -->
 <template>
-    <header class="absolute top-0 left-0 right-0 pt-4">
+    <header class="z-50 absolute top-0 left-0 right-0 pt-4">
         <div class="container flex items-center justify-between gap-2">
             <a href="" class="block w-1/6">
                 <g-image width="250" height="59" :src="require(`!!assets-loader!@/${$static.info.edges[0].node.siteImage}`)" :alt="$static.info.edges[0].node.siteName" />

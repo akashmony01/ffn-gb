@@ -13,16 +13,6 @@ module.exports = {
         link: '#af9cef',
       },
       fontFamily: {
-        // poppins
-        ppnExtraLight: ['poppins extra light'],
-        ppnLight: ['poppins light'],
-        ppnRegular: ['poppins regular'],
-        ppnMedium: ['poppins medium'],
-        ppnSemiBold: ['poppins semi bold'],
-        ppnBold: ['poppins bold'],
-        ppnExtraBold: ['poppins extra bold'],
-        ppnBlack: ['poppins black'],
-
         // roboto
         rbtThin: ['roboto thin'],
         rbtLight: ['roboto light'],

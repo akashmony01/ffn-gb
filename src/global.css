@@ -3,57 +3,7 @@
 @tailwind utilities;
 
 @layer base{
-
-    /* poppins font */
-    @font-face {
-        font-family: poppins extra light;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraLight.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins light;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-Light.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins regular;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-Regular.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins medium;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-Medium.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins semi bold;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-SemiBold.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins bold;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-Bold.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins extra bold;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraBold.ttf');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: poppins black;
-        src: url('assets/css/webfonts/custom/poppins/Poppins-Black.ttf');
-        font-display: swap;
-    }
-
-
+    
     /* roboto */
     @font-face {
         font-family: robto thin;

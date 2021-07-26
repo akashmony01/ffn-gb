@@ -1,6 +1,6 @@
 <!-- header setion -->
 <template>
-    <section class="bg-heroImg pt-48 pb-60 lg:py-60 bg-cover bg-right-bottom bg-no-repeat">
+    <section class="z-0 relative bg-heroImg pt-48 pb-60 lg:py-60 bg-cover bg-right-bottom bg-no-repeat">
         <div class="container flex flex-col lg:flex-row items-center gap-12 lg:gap-6">
             <article class="w-full lg:w-6/12">
                 <h1 v-for="{node, key} in $static.sections.edges[0].node.textFields.edges" :key="key" v-if="node.fieldSlug == 'headline'" class="text-5xl sm:text-6xl sm:text-7xl text-white mb-8">
@@ -47,6 +47,9 @@
                 </button>
             </form>
         </div>
+        <div class="bg-heroBottom absolute -bottom-px left-0 right-0 block h-40">
+          <!-- <img class="w-full" src="~@/assets/images/heroBottom.svg" alt="btm"> -->
+        </div>
     </section>
 </template>
 
@@ -83,3 +86,13 @@ export default {
   name: 'Hero',
 }
 </script>
+
+<style scoped>
+.bg-heroImg {
+  background: linear-gradient(180deg, #333F5F 0%, #495B89 100%);
+}
+.bg-heroBottom {
+  background-image: url('~@/assets/images/heroBottom.svg');
+  @apply bg-cover bg-center bg-no-repeat;
+}
+</style>
