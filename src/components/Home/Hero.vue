@@ -93,6 +93,6 @@ export default {
 }
 .bg-heroBottom {
   background-image: url('~@/assets/images/heroBottom.svg');
-  @apply bg-cover bg-center bg-no-repeat;
+  @apply bg-cover bg-top bg-no-repeat;
 }
 </style>
