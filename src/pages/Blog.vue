@@ -16,39 +16,11 @@
         <BlogItem />
       </div>
     </section>
-  
+
   </main>
 
   </BlogLayout>
 </template>
-
-<static-query>
-{
-  posts {
-    edges {
-      node {
-        id
-        title
-        slug
-        excerpt
-        date
-        featuredImage {
-          node {
-            sourceUrl
-          }
-        }
-        tags {
-          nodes {
-            link
-            slug
-          }
-        }
-      }
-    }
-  }
-}
-</static-query>
-
 
 <script>
 import BlogHero from '~/components/Blog/BlogHero.vue'

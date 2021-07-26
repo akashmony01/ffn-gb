@@ -8,41 +8,49 @@
     @font-face {
         font-family: poppins extra light;
         src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraLight.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins light;
         src: url('assets/css/webfonts/custom/poppins/Poppins-Light.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins regular;
         src: url('assets/css/webfonts/custom/poppins/Poppins-Regular.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins medium;
         src: url('assets/css/webfonts/custom/poppins/Poppins-Medium.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins semi bold;
         src: url('assets/css/webfonts/custom/poppins/Poppins-SemiBold.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins bold;
         src: url('assets/css/webfonts/custom/poppins/Poppins-Bold.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins extra bold;
         src: url('assets/css/webfonts/custom/poppins/Poppins-ExtraBold.ttf');
+        font-display: swap;
     }
 
     @font-face {
         font-family: poppins black;
         src: url('assets/css/webfonts/custom/poppins/Poppins-Black.ttf');
+        font-display: swap;
     }
 
 
@@ -50,52 +58,64 @@
     @font-face {
         font-family: robto thin;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Thin.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: roboto light;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Light.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: roboto regular;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Regular.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: roboto medium;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Medium.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: roboto bold;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Bold.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: roboto black;
         src: url('assets/css/webfonts/custom/roboto/Roboto-Black.ttf');
+        font-display: swap;
     }
 
     /* playfair display */
     @font-face {
         font-family: playfair display regular;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Regular.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: playfair display medium;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Medium.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: playfair display semi bold;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-SemiBold.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: playfair display bold;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Bold.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: playfair display extra bold;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-ExtraBold.ttf');
+        font-display: swap;
     }
     @font-face {
         font-family: playfair display black;
         src: url('assets/css/webfonts/custom/playfairDisplay/PlayfairDisplay-Black.ttf');
+        font-display: swap;
     }
 
 

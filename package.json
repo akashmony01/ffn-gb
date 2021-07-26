@@ -7,14 +7,18 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "@capsia/gridsome-plugin-local-image": "^1.1.1",
     "@vuejs-community/vue-filter-date-format": "^1.6.3",
     "dayjs": "^1.10.5",
+    "graphql-request": "^3.4.0",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-seo": "^1.0.2",
     "gridsome-source-graphql": "^1.0.2",
     "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   }
