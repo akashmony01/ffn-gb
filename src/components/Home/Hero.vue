@@ -47,8 +47,8 @@
                 </button>
             </form>
         </div>
-        <div class="bg-heroBottom absolute -bottom-px left-0 right-0 block h-40">
-          <!-- <img class="w-full" src="~@/assets/images/heroBottom.svg" alt="btm"> -->
+        <div class="absolute -bottom-px left-0 right-0 block">
+          <img class="w-full" src="~@/assets/images/heroBottom.svg" alt="btm">
         </div>
     </section>
 </template>
